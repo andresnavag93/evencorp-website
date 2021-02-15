@@ -1,36 +1,18 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import pic07 from '../assets/images/pic07.jpg'
 
 const Five = props => (
   <section id="five" className="wrapper style2 special fade inactive">
     <Fade duration={2500}>
       <div className="container">
         <header>
-          <h2>Magna faucibus lorem diam</h2>
-          <p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+          <h2>Clientes</h2>
+          <p>Nuestros clientes confian en nosotros</p>
         </header>
-        <form method="post" action="#" className="cta">
-          <div className="row gtr-uniform gtr-50">
-            <div className="col-8 col-12-xsmall">
-              <input
-                aria-label="Your email"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Your Email Address"
-              />
-            </div>
-            <div className="col-4 col-12-xsmall">
-              <input
-                aria-label="Submit the form"
-                id="submitForm"
-                type="submit"
-                value="Get Started"
-                className="fit primary"
-              />
-            </div>
-          </div>
-        </form>
+        <a href="#" className="image fit">
+          <img src={pic07} alt="" />
+        </a>
       </div>
     </Fade>
   </section>

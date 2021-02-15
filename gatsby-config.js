@@ -1,62 +1,26 @@
 module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
-    title: 'Landed',
-    author: 'vasrush',
-    description: 'A Gatsby.js V2 Starter based on Landed by HTML5 UP',
+    title: 'Evencorp',
+    author: 'andresnavarro',
+    description: 'Evencorp website',
     menuLinks: [
       {
         name: 'Home',
         link: '/',
+        cl: '',
       },
       {
-        name: 'Layouts',
-        link: '#',
-        items: [
-          {
-            name: 'Left Sidebar',
-            link: '/left-sidebar',
-          },
-          {
-            name: 'Right Sidebar',
-            link: '/right-sidebar',
-          },
-          {
-            name: 'No Sidebar',
-            link: '/no-sidebar',
-          },
-          {
-            name: 'SubMenu',
-            link: '#',
-            items: [
-              {
-                name: 'Option 1',
-                link: '#',
-              },
-              {
-                name: 'Option 2',
-                link: '#',
-              },
-              {
-                name: 'Option 3',
-                link: '#',
-              },
-              {
-                name: 'Option 4',
-                link: '#',
-              },
-            ],
-          },
-        ],
+        name: 'About us',
+        link: '/evencorp',
       },
       {
-        name: 'Elements',
-        link: '/elements',
+        name: 'Servicios',
+        link: '/services',
       },
       {
-        name: 'Sign Up',
-        link: '#',
-        cl: 'button primary',
+        name: 'Galería',
+        link: '/gallery',
       },
     ],
   },
@@ -87,7 +51,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
-        lang: 'en',
+        lang: 'es',
       },
     },
     'gatsby-plugin-offline',
