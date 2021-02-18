@@ -2,8 +2,8 @@ module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
     title: 'Evencorp',
-    author: 'andresnavarro',
-    description: 'Evencorp website',
+    author: 'Andres Navarro',
+    description: 'Eventos corporativos',
     menuLinks: [
       {
         name: 'Home',
@@ -11,16 +11,16 @@ module.exports = {
         cl: '',
       },
       {
-        name: 'About us',
+        name: 'Nosotros',
         link: '/evencorp',
       },
       {
         name: 'Servicios',
-        link: '/services',
+        link: '/servicios',
       },
       {
-        name: 'Galería',
-        link: '/gallery',
+        name: 'Eventos',
+        link: '/eventos',
       },
     ],
   },

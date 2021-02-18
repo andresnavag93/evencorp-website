@@ -14,7 +14,7 @@ const LeftSidebar = props => (
     <div id="main" className="wrapper style1">
       <div className="container">
         <header className="major">
-          <h2>Galeria</h2>
+          <h2>Galeria de Eventos</h2>
           <p>
             Ipsum dolor feugiat aliquam tempus sed magna lorem consequat
             accumsan

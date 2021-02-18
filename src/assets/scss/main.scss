@@ -2389,3 +2389,24 @@ body.is-touch {
     }
   }
 }
+
+
+.five-bg-color {
+  background-color: white !important;
+}
+
+.five-text-color {
+  color:rgba(0, 0, 0, 1) !important;
+}
+
+.five-img-size {
+  // width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+.major2::after{
+  background-color: #39c088 !important;
+}
