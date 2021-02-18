@@ -18,11 +18,11 @@ const LeftSidebar = props => (
     <div id="main" className="wrapper style1">
       <div className="container">
         <header className="major">
-          <h2>Services</h2>
-          <p>
+          <h2>Nuestros Servicios</h2>
+          {/* <p>
             Ipsum dolor feugiat aliquam tempus sed magna lorem consequat
             accumsan
-          </p>
+          </p> */}
         </header>
         <section>
           <h4>Left &amp; Right</h4>

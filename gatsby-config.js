@@ -22,6 +22,10 @@ module.exports = {
         name: 'Eventos',
         link: '/eventos',
       },
+      {
+        name: 'Contáctos',
+        link: '#footer',
+      },
     ],
   },
   plugins: [

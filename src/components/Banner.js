@@ -15,7 +15,9 @@ const Banner = props => (
       <span className="image">
         <img src={pic01} alt="intro" />
       </span>
+      
     </div>
+    
     <ScrollLink
       to="one"
       className="goto-next"
