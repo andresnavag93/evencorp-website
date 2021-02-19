@@ -1,5 +1,5 @@
 import React from 'react'
-import pic04 from '../assets/images/pic04.jpg'
+import pic04 from '../assets/images/home/4.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -15,19 +15,17 @@ const Three = props => (
     <Fade left big>
       <div className="content">
         <header>
-          <h2>Interdum felis blandit praesent sed augue</h2>
-          <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+          <h2>Eventos especiales</h2>
+          {/* <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p> */}
         </header>
         <p>
           Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
+          mi mi nisi praesent adipiscing. 
         </p>
         <ul className="actions">
           <li>
-            <a href="/" className="button">
-              Learn More
+            <a href="/eventos" className="button">
+              Ver galería
             </a>
           </li>
         </ul>

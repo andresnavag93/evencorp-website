@@ -1,22 +1,23 @@
 import React from 'react'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/logo.png'
 import { Link as ScrollLink } from 'react-scroll'
 
 const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>The future has landed</h2>
+        <h2>Evencorp</h2>
         <p>
-          And there are no hoverboards or flying cars.
-          <br />
-          Just apps. Lots of mother flipping apps.
+          Organizamos todo tipo de eventos, <br /> para tu empresa, familia o
+          <br /> simplemente para tus momentos especiales.
         </p>
       </header>
       <span className="image">
         <img src={pic01} alt="intro" />
       </span>
+      
     </div>
+    
     <ScrollLink
       to="one"
       className="goto-next"
