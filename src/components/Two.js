@@ -25,7 +25,7 @@ const Two = props => (
         <ul className="actions">
           <li>
             <a href="/evencorp" className="button">
-              Equipo Evencorp
+              Ver más
             </a>
           </li>
         </ul>

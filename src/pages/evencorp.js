@@ -2,13 +2,12 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import pic05 from '../assets/images/evencorp.jpg'
-import pic06 from '../assets/images/evencorp.jpg'
 
 const LeftSidebar = props => (
   <Layout>
     <Helmet>
       <title>Evencorp - Team</title>
-      <meta name="description" content="Left Sidebar Page" />
+      <meta name="description" content="Equipo de evencorp" />
     </Helmet>
 
     <div id="main" className="wrapper style1">

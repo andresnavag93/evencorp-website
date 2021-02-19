@@ -16,7 +16,7 @@ class Home extends React.Component {
           htmlAttributes={{ lang: 'es' }}
           title="Evencorp Homepage"
           meta={[
-            { name: 'description', content: 'Eventos corporativos' },
+            { name: 'description', content: 'Eventos corporativos y grupales' },
             { name: 'keywords', content: 'fiestas, eventos' },
           ]}
         ></Helmet>
