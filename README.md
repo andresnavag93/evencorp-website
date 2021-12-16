@@ -1,17 +1,18 @@
-# gatsby-starter-landed 
+# Evencorp Webiste
 
-**This is a starter for Gatsby.js V2.**
+- The corporate site to show their own products, company information, and events photos gallery
 
-Gatsby.js V2 starter based on the Landed site template, designed by HTML5 UP.
+### Url address
 
-## Preview
+- Link Url: [https://evencorp.vercel.app/](https://evencorp.vercel.app/)
 
-https://gatsby-starter-landed.netlify.com
+### Technologies / Tools
 
-## Installation
+- Gatsby.Js
 
-Install this starter :
-<br/>
-`gatsby new gatsby-starter-landed https://github.com/vasrush/gatsby-starter-landed`
+### System requirements
 
-Run `gatsby develop` to start the dev site or `gatsby build` to build it for production.
+- node ^v12.18.3
+- npm ^6.14.6
+
+##### Developed by: Andres Navarro
